@@ -22,8 +22,9 @@ messages = {}
 allResources = plan.find_resources("google_compute_subnetwork")
 ```
 ### Methods
-```
+
 ####Following function is being used to validate the value of flow_sampling
+```
 check_flow_sampling = func(address, rc) {
 
 	key = "log_config.0.flow_sampling"
